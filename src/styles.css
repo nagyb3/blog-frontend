@@ -2,20 +2,21 @@
   background-color: #ffcb9c;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-color: #FFF4E0;
+  background-color: #fff4e0;
   font-family: monospace;
 }
 
 .primary {
-  background: #FD9745;
+  background: #fd9745;
 }
 
 .light-primary {
-  background-color: #FFF4E0;
+  background-color: #fff4e0;
 }
 
 h1 {
@@ -23,7 +24,7 @@ h1 {
 }
 
 h1:hover {
-  color: #FD9745;
+  color: #fd9745;
 }
 
 .nav-container {

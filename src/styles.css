@@ -1,7 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+::selection {
+  background-color: #ffcb9c;
+}
 
 html, body {
   margin: 0;
+  padding: 0;
   min-height: 100vh;
   background-color: #FFF4E0;
   font-family: monospace;
@@ -15,7 +18,34 @@ html, body {
   background-color: #FFF4E0;
 }
 
+h1 {
+  width: fit-content;
+}
+
 h1:hover {
   color: #FD9745;
-  cursor: pointer;
+}
+
+.nav-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.home-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-container {
+  width: 100%;
+  max-width: min(80vw, 800px);
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

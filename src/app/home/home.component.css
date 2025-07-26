@@ -1,0 +1,13 @@
+.blog-post-card {
+  background-color: #ffbb84;
+  border: 2px solid #ff9c4b;
+  border-radius: 2px;
+  padding: 4px;
+}
+
+.blog-post-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
